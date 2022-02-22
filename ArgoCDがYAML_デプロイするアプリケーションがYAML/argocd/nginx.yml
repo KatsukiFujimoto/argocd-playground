@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/KatsukiFujimoto/argocd-playground.git
     targetRevision: HEAD
-    path: nginx
+    path: ArgoCDがYAML_デプロイするアプリケーションがYAML/nginx
   destination:
     server: https://kubernetes.default.svc
     namespace: nginx

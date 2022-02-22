@@ -6,7 +6,7 @@
 下記より、ArgoCDを使ってローカル環境にNginxをデプロイする。
 
 ```shell
-$ kubectl apply -n argocd -f argocd
+$ kubectl apply -f ArgoCDがYAML_デプロイするアプリケーションがYAML/argocd -n argocd
 application.argoproj.io/nginx created
 
 $ kubectl get svc -n nginx
