@@ -62,4 +62,13 @@ Commercial support is available at
 </html>
 * Connection #0 to host localhost left intact
 * Closing connection 0
+
+$ kubectl delete application/nginx -n argocd
+application.argoproj.io "nginx" deleted
+
+$ kubectl delete all --all -n nginx
+pod "nginx-cb69f686c-rk6h6" deleted
+service "nginx" deleted
+deployment.apps "nginx" deleted
+replicaset.apps "nginx-cb69f686c" deleted
 ```
